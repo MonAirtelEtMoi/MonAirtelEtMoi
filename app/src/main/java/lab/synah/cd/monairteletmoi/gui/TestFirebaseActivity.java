@@ -2,8 +2,10 @@ package lab.synah.cd.monairteletmoi.gui;
 
 import android.app.ListActivity;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,6 +22,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import lab.synah.cd.monairteletmoi.R;
 import lab.synah.cd.monairteletmoi.model.Ussd;
+import lab.synah.cd.monairteletmoi.utils.Utils;
+
+// import android.support.v7.app.AppCompatActivity;
 
 public class TestFirebaseActivity extends ListActivity {
 
@@ -33,6 +38,7 @@ public class TestFirebaseActivity extends ListActivity {
     private GoogleApiClient client;
     Toolbar toolbar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -40,18 +46,26 @@ public class TestFirebaseActivity extends ListActivity {
         setContentView(R.layout.test_activity);
 
         Firebase.setAndroidContext(this);
-        mFireBaseRef = new Firebase("https://MonAirtelEtMoi.firebaseio.com");
 
-        /*toolbar = (Toolbar) findViewById(R.id.toolbar);
+        mFireBaseRef = new Firebase(Utils.BACKEND_URL);
+
+
+
+        /*
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        */
+
 
         TypedValue typedValueColorPrimaryDark = new TypedValue();
         TestFirebaseActivity.this.getTheme().resolveAttribute(R.attr.colorPrimaryDark, typedValueColorPrimaryDark, true);
         final int colorPrimaryDark = typedValueColorPrimaryDark.data;
         if (Build.VERSION.SDK_INT >= 21) {
             getWindow().setStatusBarColor(colorPrimaryDark);
-        }*/
+        }
+
+        mainListView = (ListView) findViewById(R.id.list);
 
         final EditText textEdit = (EditText) this.findViewById(R.id.text_edit);
         Button sendButton = (Button) this.findViewById(R.id.send_button);
@@ -83,7 +97,7 @@ public class TestFirebaseActivity extends ListActivity {
             }
         };
         setListAdapter(mListAdapter);
-       // mainListView.setAdapter(mListAdapter);
+      // mainListView.setAdapter(mListAdapter);
 
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.

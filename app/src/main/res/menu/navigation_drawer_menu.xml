@@ -6,32 +6,50 @@
             android:checked="true"
             android:id="@+id/item_navigation_drawer_inbox"
             android:icon="@drawable/ic_inbox_black_24dp"
-            android:title="Inbox" />
+            android:title="Mon compte" />
         <item
             android:id="@+id/item_navigation_drawer_starred"
             android:icon="@drawable/ic_action_toggle_star"
-            android:title="Starred" />
-        <item
-            android:id="@+id/item_navigation_drawer_sent_mail"
-            android:icon="@drawable/ic_action_content_send"
-            android:title="Sent mail" />
-        <item
-            android:id="@+id/item_navigation_drawer_drafts"
-            android:icon="@drawable/ic_action_content_drafts"
-            android:title="Drafts" />
+            android:title="Recharge" />
     </group>
 
-    <item android:title="Subheader">
+    <item android:title="Offres et Services">
         <menu>
-            <item
-                android:id="@+id/item_navigation_drawer_settings"
-                android:icon="@drawable/ic_action_content_mail"
-                android:title="Settings" />
             <item
                 android:id="@+id/item_navigation_drawer_help_and_feedback"
                 android:icon="@drawable/ic_action_action_delete"
                 android:title="Test Firebase" />
+            <item
+                android:id="@+id/item_navigation_drawer_sent_mail"
+                android:icon="@drawable/ic_action_content_send"
+                android:title="Services Airtel" />
+            <item
+                android:id="@+id/item_navigation_drawer_drafts"
+                android:icon="@drawable/ic_action_content_drafts"
+                android:title="Offres Airtel" />
+            <item
+                android:id="@+id/item_navigation_drawer_money"
+                android:icon="@drawable/ic_action_content_drafts"
+                android:title="Airtel Money" />
+            <item
+                android:id="@+id/item_navigation_drawer_settings"
+                android:icon="@drawable/ic_action_content_mail"
+                android:title="Settings" />
         </menu>
     </item>
+
+    <item android:title="Aides et FAQs">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_shops"
+                android:icon="@drawable/ic_action_action_delete"
+                android:title="Points de vente Airtel" />
+            <item
+                android:id="@+id/item_navigation_drawer_faqs"
+                android:icon="@drawable/ic_action_content_send"
+                android:title="FAQs" />
+        </menu>
+    </item>
+
 
 </menu>

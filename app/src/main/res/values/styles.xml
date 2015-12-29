@@ -54,6 +54,11 @@
         <item name="android:layout_marginTop">@dimen/menu_vertical_margin</item>
     </style>
 
+
+    <style name="listStyle">
+
+    </style>
+
     <style name="btn_style_min">
         <item name="android:background">@color/myPrimaryColor</item>
         <item name="android:textColor">@android:color/white</item>

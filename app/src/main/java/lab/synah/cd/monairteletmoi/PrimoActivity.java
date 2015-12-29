@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import lab.synah.cd.monairteletmoi.fragment.PrimoFragment;
 import lab.synah.cd.monairteletmoi.gui.SettingsActivity;
 import lab.synah.cd.monairteletmoi.gui.TestFirebaseActivity;
 
@@ -132,8 +133,8 @@ public class PrimoActivity extends AppCompatActivity {
             case 0:
                 fragmentManager=getSupportFragmentManager();
                 fragmentTransaction=fragmentManager.beginTransaction();
-                //StudentFragment studentFragment=new StudentFragment();
-              //  fragmentTransaction.replace(R.id.fragment, studentFragment);
+                PrimoFragment mainFragment=new PrimoFragment();
+                fragmentTransaction.replace(R.id.fragment,mainFragment);
                 fragmentTransaction.commit();
                 break;
             case 1:

@@ -9,7 +9,7 @@ import android.net.NetworkInfo;
  */
 public class Utils {
 
-    public static final String BACKEND_URL = "https://monairteletmoi.firebaseIO.com";
+    public static final String BACKEND_URL = "https://MonAirtelEtMoi.firebaseio.com";
     public static final String BACKEND_IMAGES_PATH="http://devfest.gdg-lome.org";
 
 
