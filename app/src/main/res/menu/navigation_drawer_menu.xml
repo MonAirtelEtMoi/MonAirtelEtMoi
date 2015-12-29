@@ -30,7 +30,7 @@
             <item
                 android:id="@+id/item_navigation_drawer_help_and_feedback"
                 android:icon="@drawable/ic_action_action_delete"
-                android:title="Help and feedback" />
+                android:title="Test Firebase" />
         </menu>
     </item>
 

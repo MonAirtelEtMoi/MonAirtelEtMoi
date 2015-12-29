@@ -1,5 +1,6 @@
 package lab.synah.cd.monairteletmoi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
@@ -13,6 +14,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import lab.synah.cd.monairteletmoi.gui.SettingsActivity;
+import lab.synah.cd.monairteletmoi.gui.TestFirebaseActivity;
 
 public class PrimoActivity extends AppCompatActivity {
 
@@ -100,13 +104,19 @@ public class PrimoActivity extends AppCompatActivity {
                                 menuItem.setChecked(true);
                                 Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);
-                               // Intent intent = new Intent(PrimoActivity.this, SettingsActivity.class);
-                              //  startActivity(intent);
+                                Intent intent = new Intent(PrimoActivity.this, SettingsActivity.class);
+                                startActivity(intent);
                                 return true;
                             case R.id.item_navigation_drawer_help_and_feedback:
-                                menuItem.setChecked(true);
+                                /*menuItem.setChecked(true);
                                 Toast.makeText(PrimoActivity.this, menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                                drawerLayout.closeDrawer(GravityCompat.START);*/
+
+                                menuItem.setChecked(true);
+                                Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);
+                                Intent intent2 = new Intent(PrimoActivity.this, TestFirebaseActivity.class);
+                                startActivity(intent2);
                                 return true;
                         }
                         return true;
