@@ -2,4 +2,6 @@
     <string name="app_name">MonAirtelEtMoi</string>
     <string name="action_settings">Settings</string>
     <string name="action_firebase">Firebase</string>
+    <string name="hint_add_dialog_list">Entrez le code ussd ici</string>
+    <string name="positive_button_create">Enregistrer</string>
 </resources>

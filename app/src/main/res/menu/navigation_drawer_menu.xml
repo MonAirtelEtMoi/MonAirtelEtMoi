@@ -4,37 +4,34 @@
     <group android:checkableBehavior="single">
         <item
             android:checked="true"
-            android:id="@+id/item_navigation_drawer_inbox"
-            android:icon="@drawable/ic_inbox_black_24dp"
+            android:id="@+id/item_navigation_drawer_moncompte"
+            android:icon="@drawable/ic_action_moncompte"
             android:title="Mon compte" />
         <item
-            android:id="@+id/item_navigation_drawer_starred"
-            android:icon="@drawable/ic_action_toggle_star"
+            android:id="@+id/item_navigation_drawer_recharge"
+            android:icon="@drawable/ic_action_compte_recharge"
             android:title="Recharge" />
     </group>
 
     <item android:title="Offres et Services">
         <menu>
             <item
-                android:id="@+id/item_navigation_drawer_help_and_feedback"
-                android:icon="@drawable/ic_action_action_delete"
-                android:title="Test Firebase" />
+                android:id="@+id/item_navigation_drawer_ussd_code"
+                android:icon="@drawable/ic_action_ussd_code"
+                android:title="Codes Ussd usuels" />
             <item
-                android:id="@+id/item_navigation_drawer_sent_mail"
-                android:icon="@drawable/ic_action_content_send"
+                android:id="@+id/item_navigation_drawer_services"
+                android:icon="@drawable/ic_action_service_airtel"
                 android:title="Services Airtel" />
             <item
-                android:id="@+id/item_navigation_drawer_drafts"
-                android:icon="@drawable/ic_action_content_drafts"
+                android:id="@+id/item_navigation_drawer_offres"
+                android:icon="@drawable/ic_action_offre_airtel"
                 android:title="Offres Airtel" />
             <item
                 android:id="@+id/item_navigation_drawer_money"
-                android:icon="@drawable/ic_action_content_drafts"
+                android:icon="@drawable/ic_action_airtel_money"
                 android:title="Airtel Money" />
-            <item
-                android:id="@+id/item_navigation_drawer_settings"
-                android:icon="@drawable/ic_action_content_mail"
-                android:title="Settings" />
+
         </menu>
     </item>
 
@@ -42,12 +39,16 @@
         <menu>
             <item
                 android:id="@+id/item_navigation_drawer_shops"
-                android:icon="@drawable/ic_action_action_delete"
+                android:icon="@drawable/ic_action_shops"
                 android:title="Points de vente Airtel" />
             <item
                 android:id="@+id/item_navigation_drawer_faqs"
-                android:icon="@drawable/ic_action_content_send"
+                android:icon="@drawable/ic_action_faqs"
                 android:title="FAQs" />
+            <item
+                android:id="@+id/item_navigation_drawer_settings"
+                android:icon="@drawable/ic_action_app_settings"
+                android:title="Settings" />
         </menu>
     </item>
 

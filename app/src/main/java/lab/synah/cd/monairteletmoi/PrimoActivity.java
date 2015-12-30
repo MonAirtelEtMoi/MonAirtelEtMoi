@@ -81,22 +81,37 @@ public class PrimoActivity extends AppCompatActivity {
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         // textView = (TextView) findViewById(R.id.textView);
                         switch (menuItem.getItemId()) {
-                            case R.id.item_navigation_drawer_inbox:
+                            case R.id.item_navigation_drawer_moncompte:
                                 menuItem.setChecked(true);
                                 setActiveFragment(0);
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 return true;
-                            case R.id.item_navigation_drawer_starred:
+                            case R.id.item_navigation_drawer_recharge:
                                 menuItem.setChecked(true);
                                 setActiveFragment(1);
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 return true;
-                            case R.id.item_navigation_drawer_sent_mail:
+                            case R.id.item_navigation_drawer_services:
                                 menuItem.setChecked(true);
                                 Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 return true;
-                            case R.id.item_navigation_drawer_drafts:
+                            case R.id.item_navigation_drawer_offres:
+                                menuItem.setChecked(true);
+                                Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                                drawerLayout.closeDrawer(GravityCompat.START);
+                                return true;
+                            case R.id.item_navigation_drawer_money:
+                                menuItem.setChecked(true);
+                                Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                                drawerLayout.closeDrawer(GravityCompat.START);
+                                return true;
+                            case R.id.item_navigation_drawer_faqs:
+                                menuItem.setChecked(true);
+                                Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                                drawerLayout.closeDrawer(GravityCompat.START);
+                                return true;
+                            case R.id.item_navigation_drawer_shops:
                                 menuItem.setChecked(true);
                                 Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);
@@ -108,7 +123,7 @@ public class PrimoActivity extends AppCompatActivity {
                                 Intent intent = new Intent(PrimoActivity.this, SettingsActivity.class);
                                 startActivity(intent);
                                 return true;
-                            case R.id.item_navigation_drawer_help_and_feedback:
+                            case R.id.item_navigation_drawer_ussd_code:
                                 /*menuItem.setChecked(true);
                                 Toast.makeText(PrimoActivity.this, menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);*/
