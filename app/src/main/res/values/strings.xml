@@ -4,4 +4,11 @@
     <string name="action_firebase">Firebase</string>
     <string name="hint_add_dialog_list">Entrez le code ussd ici</string>
     <string name="positive_button_create">Enregistrer</string>
+    <string name="hint_add_ussd_list">Entrez un code ussd ici</string>
+    <string name="action_logout">Quitter</string>
+    <string name="pager_title_ussd_lists">Liste des USSD</string>
+    <string name="pager_list_suscriber">Liste Abonné</string>
+
+    <string name="created_by">Created by </string>
+
 </resources>
