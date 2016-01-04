@@ -10,16 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f4082f1-2c4c-4bed-b8b2-548add1bc301" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/gui/AddFirebaseActivity.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/MonAirtelEtMoiApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/App.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/utils/Utils.java" afterPath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/utils/Config.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/PrimoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/PrimoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/fragment/AddListUssdDialogFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/fragment/AddListUssdDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/fragment/MapFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/fragment/MapFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/row_selector.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/row_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/test_activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/test_activity.xml" />
     </list>
     <ignored path="MonAirtelEtMoi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,8 +120,8 @@
       <file leaf-file-name="PrimoActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/PrimoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8564014">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.09950249">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="e#2436#6980#0" expanded="true" />
                 <element signature="e#6979#6980#0" expanded="true" />
@@ -1882,7 +1873,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
     <option name="y" value="30" />
-    <option name="width" value="804" />
+    <option name="width" value="1148" />
     <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -2431,7 +2422,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="30" width="804" height="747" extended-state="6" />
+    <frame x="-2" y="30" width="1148" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2454,7 +2445,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4160105" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18896925" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.4960861" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2747,12 +2738,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#BaseActivity#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#BaseActivity#0" expanded="false" />
+            <element signature="e#1702#1703#0" expanded="false" />
+            <element signature="e#1735#1736#0" expanded="false" />
+            <element signature="e#1805#1806#0" expanded="false" />
+            <element signature="e#1856#1857#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2910,7 +2901,7 @@
         <state vertical-scroll-proportion="0.763986">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3022,8 +3013,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lab/synah/cd/monairteletmoi/PrimoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8564014">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.09950249">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="e#2436#6980#0" expanded="true" />
             <element signature="e#6979#6980#0" expanded="true" />
