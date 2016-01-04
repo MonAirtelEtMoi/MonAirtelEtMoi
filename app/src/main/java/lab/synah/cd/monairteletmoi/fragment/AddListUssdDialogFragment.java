@@ -1,9 +1,9 @@
 package lab.synah.cd.monairteletmoi.fragment;
 
 import android.app.Dialog;
-import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -16,7 +16,7 @@ import android.widget.TextView;
 import com.firebase.client.Firebase;
 
 import lab.synah.cd.monairteletmoi.R;
-import lab.synah.cd.monairteletmoi.utils.Utils;
+import lab.synah.cd.monairteletmoi.utils.Config;
 
 /**
  * Created by Michelo on 31/12/15.
@@ -94,13 +94,15 @@ public class AddListUssdDialogFragment extends DialogFragment {
      */
     public void addSuscriberList() {
         // Get the reference to the root node in Firebase
-        Firebase ref = new Firebase(Utils.FIREBASE_URL);
+        Firebase ref = new Firebase(Config.FIREBASE_URL);
         // Get the string that the user entered into the EditText
         String userEnteredName = mEditTextListName.getText().toString();
         // Go to the "listName" child node of the root node.
         // This will create the node for you if it doesn't already exist.
         // Then using the setValue menu it will set value the node to userEnteredName.
-        ref.child("listName").setValue(userEnteredName);
+        //ref.child("listName").setValue(userEnteredName);
+        // Then using the setValue menu it will set value the node to userEnteredName.
+        ref.child(Config.FIREBASE_PROPERTY_LIST_NAME).setValue(userEnteredName);
     }
 
 

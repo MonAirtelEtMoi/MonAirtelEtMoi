@@ -15,6 +15,7 @@
         android:icon="@drawable/monairteletmoi"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:windowSoftInputMode="adjustPan"
         android:theme="@style/AppTheme">
         <activity
             android:name=".PrimoActivity"
@@ -39,6 +40,13 @@
             android:label="@string/action_firebase"
             android:parentActivityName=".PrimoActivity">
         </activity>
+
+        <activity android:name=".gui.UssdFirebaseActivity"
+            android:label="Firebase"
+            android:parentActivityName=".PrimoActivity">
+
+        </activity>
+
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data

@@ -6,18 +6,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ListView
-            android:id="@android:id/list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@+id/footer"/>
-
         <LinearLayout
             android:id="@+id/footer"
-            android:layout_alignParentBottom="true"
+            android:paddingTop="15dp"
+            android:layout_alignParentBottom="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+            <EditText
+                android:id="@+id/text_ussd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textShortMessage" />
             <EditText
                 android:id="@+id/text_edit"
                 android:layout_width="0dp"
@@ -31,6 +33,12 @@
                 android:layout_height="wrap_content"
                 android:text="Send" />
         </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/footer" />
 
 </RelativeLayout>
 

@@ -5,12 +5,12 @@ import android.content.res.Configuration;
 
 import com.firebase.client.Firebase;
 
-import lab.synah.cd.monairteletmoi.utils.Utils;
+import lab.synah.cd.monairteletmoi.utils.Config;
 
 /**
  * Created by Michelo on 28/12/15.
  */
-public class MonAirtelEtMoiApplication extends Application {
+public class App extends Application {
 
     public static Firebase monAirtelCongoBackend;
 
@@ -25,7 +25,7 @@ public class MonAirtelEtMoiApplication extends Application {
         super.onCreate();
         Firebase.setAndroidContext(this);
         Firebase.getDefaultConfig().setPersistenceEnabled(true);
-        monAirtelCongoBackend=new Firebase(Utils.BACKEND_URL);
+        monAirtelCongoBackend=new Firebase(Config.BACKEND_URL);
 
     }
 

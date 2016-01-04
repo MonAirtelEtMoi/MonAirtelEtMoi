@@ -11,9 +11,9 @@ import com.firebase.client.DataSnapshot;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 
-import lab.synah.cd.monairteletmoi.MonAirtelEtMoiApplication;
+import lab.synah.cd.monairteletmoi.App;
 import lab.synah.cd.monairteletmoi.R;
-import lab.synah.cd.monairteletmoi.utils.Utils;
+import lab.synah.cd.monairteletmoi.utils.Config;
 
 /**
  * Created by Michelo on 29/12/15.
@@ -86,7 +86,7 @@ public class MapFragment extends Fragment {
 
     private void setUpMap() {
 
-        MonAirtelEtMoiApplication.monAirtelCongoBackend.child(Utils.BACKEND_VENUE_PATH).addValueEventListener(new ValueEventListener() {
+        App.monAirtelCongoBackend.child(Config.BACKEND_VENUE_PATH).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 /*Venue venue = dataSnapshot.getValue(Venue.class);
