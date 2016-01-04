@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_activity"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text1"
+        android:text="FAQS"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/Info"
+        android:text="Vos Informations"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/md_black_1000"
+        android:textSize="20dip" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/input1"
+        android:layout_gravity="center_horizontal"
+        android:ems="16"
+        android:hint="                           User name"
+        android:textColorHint="@color/md_red_300"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="         Phone number"
+        android:inputType="phone"
+        android:textColorHint="@color/md_red_300"
+        android:textStyle="italic"
+        android:ems="10" />
+    <EditText
+
+        android:id="@+id/input3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="           Email adress"
+        android:textColorHint="@color/md_red_300"
+        android:textStyle="italic"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/Spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/prompt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/Mes"
+        android:text="Message"
+        android:textStyle="italic"
+        android:textColor="@color/md_black_1000"
+        android:textSize="20dip" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_height="wrap_content"
+        android:hint="              Problème de Manière detaillé"
+        android:textStyle="italic"
+        android:textColor="@color/md_red_300"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/CheckBoxResponse"
+        android:layout_height="wrap_content"
+        android:text="@string/reponse"
+        android:textStyle="italic"
+        android:layout_width="fill_parent">
+    </CheckBox>
+
+
+    <Button
+        android:id="@+id/btnenvoy"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/send1"
+        />
+
+</LinearLayout>
