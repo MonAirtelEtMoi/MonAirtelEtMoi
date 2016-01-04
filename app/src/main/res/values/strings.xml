@@ -8,7 +8,9 @@
     <string name="action_logout">Quitter</string>
     <string name="pager_title_ussd_lists">Liste des USSD</string>
     <string name="pager_list_suscriber">Liste Abonné</string>
-
     <string name="created_by">Created by </string>
-
+    <string name="reponse">Voulez-vous une reponse via mail?</string>
+    <string name="prompt">Choississez le Problème</string>
+    <string name="choix">Faites le Choix</string>
+    <string name="message">Problème de Manière detaillé</string>
 </resources>
