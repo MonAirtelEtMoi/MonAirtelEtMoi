@@ -3,8 +3,13 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    android:layout_width="match_parent"
+    android:layout_width="fill_parent"
     android:layout_height="match_parent">
+
+<!--    <include
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        layout="@layout/toolbar_activity"  />-->
 
     <LinearLayout
         android:id="@+id/footer"
@@ -12,6 +17,7 @@
         android:layout_alignParentBottom="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
         android:orientation="horizontal">
         <EditText
             android:id="@+id/text_ussd"

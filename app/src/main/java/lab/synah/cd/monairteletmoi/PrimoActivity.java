@@ -15,9 +15,10 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import lab.synah.cd.monairteletmoi.fragment.MapFragment;
 import lab.synah.cd.monairteletmoi.fragment.PrimoFragment;
 import lab.synah.cd.monairteletmoi.gui.SettingsActivity;
-import lab.synah.cd.monairteletmoi.gui.TestFirebaseActivity;
+import lab.synah.cd.monairteletmoi.gui.UssdFirebaseActivity;
 
 public class PrimoActivity extends AppCompatActivity {
 
@@ -131,7 +132,7 @@ public class PrimoActivity extends AppCompatActivity {
                                 menuItem.setChecked(true);
                                 Toast.makeText(PrimoActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);
-                                Intent intent2 = new Intent(PrimoActivity.this, TestFirebaseActivity.class);
+                                Intent intent2 = new Intent(PrimoActivity.this, UssdFirebaseActivity.class);
                                 startActivity(intent2);
                                 return true;
                         }
@@ -153,11 +154,11 @@ public class PrimoActivity extends AppCompatActivity {
                 fragmentTransaction.commit();
                 break;
             case 1:
-//                fragmentManager=getSupportFragmentManager();
-//                fragmentTransaction=fragmentManager.beginTransaction();
-//                StudentFragment studentFragment=new StudentFragment();
-//                fragmentTransaction.replace(R.id.fragment, studentFragment);
-//                fragmentTransaction.commit();
+                fragmentManager=getSupportFragmentManager();
+                fragmentTransaction=fragmentManager.beginTransaction();
+                MapFragment accountFragment=new MapFragment();
+                fragmentTransaction.replace(R.id.fragment, accountFragment);
+                fragmentTransaction.commit();
                 break;
         }
     }

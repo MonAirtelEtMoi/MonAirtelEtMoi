@@ -17,6 +17,7 @@ public class Config {
     public static String USSD_CHILD = "USSD";
     public static String USSD_STRING = "Code";
     public static final String BACKEND_VENUE_PATH="venue";
+    public static final String BACKEND_COMMANDE_PATH="commande";
     public static final String FIREBASE_PROPERTY_LIST_NAME = "listName";
 
     public static Boolean isConnected(Context context){
