@@ -5,7 +5,7 @@
         <item
             android:checked="true"
             android:id="@+id/item_navigation_drawer_moncompte"
-            android:icon="@drawable/ic_action_moncompte"
+            android:icon="@drawable/ic_action_moncompte_b"
             android:title="Mon compte" />
         <item
             android:id="@+id/item_navigation_drawer_recharge"

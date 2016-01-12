@@ -28,10 +28,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/status_bar_margin_top">
 
-        <FrameLayout
+        <!--<FrameLayout
             android:id="@+id/fragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"/>-->
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -42,7 +42,15 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:theme="@style/ToolbarTheme" />
 
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
     </FrameLayout>
+
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
